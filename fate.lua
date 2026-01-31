@@ -91,7 +91,7 @@ configs:
     default: false
   Exchange bicolor gemstones for:
     description: Choose none if you dont want to spend your bicolors.
-    default: "Turali Bicolor Gemstone Voucher"
+    default: "Bicolor Gemstone Voucher"
     is_choice: true
     choices: ["None",
         "Alexandrian Axe Beak Wing",
