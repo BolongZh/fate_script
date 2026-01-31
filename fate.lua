@@ -1914,7 +1914,7 @@ function FlyBackToAetheryte()
         end
 
         if Svc.Condition[CharacterCondition.flying] then
-            yield("/ac dismount") -- land but dont actually dismount, to avoid running chocobo timer
+            yield("/ac 降りる") -- land but dont actually dismount, to avoid running chocobo timer
         elseif Svc.Condition[CharacterCondition.mounted] then
             State = CharacterState.ready
             Dalamud.Log("[FATE] State Change: Ready")
@@ -1987,7 +1987,7 @@ end
 
 function Dismount()
     if Svc.Condition[CharacterCondition.flying] then
-        yield('/ac dismount')
+        yield('/ac 降りる')
 
         local now = os.clock()
         if now - LastStuckCheckTime > 1 then
@@ -2006,7 +2006,7 @@ function Dismount()
             LastStuckCheckPosition = Svc.ClientState.LocalPlayer.Position
         end
     elseif Svc.Condition[CharacterCondition.mounted] then
-        yield('/ac dismount')
+        yield('/ac 降りる')
     end
 end
 
