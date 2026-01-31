@@ -1920,7 +1920,7 @@ function FlyBackToAetheryte()
             Dalamud.Log("[FATE] State Change: Ready")
         else
             if MountToUse == "mount roulette" then
-                yield('/gaction "mount roulette"')
+                yield('/gaction "マウント・ルーレット"')
             else
                 yield('/mount "' .. MountToUse)
             end
@@ -1968,7 +1968,7 @@ end
 
 function Mount()
     if MountToUse == "mount roulette" then
-        yield('/gaction "mount roulette"')
+        yield('/gaction "マウント・ルーレット"')
     else
         yield('/mount "' .. MountToUse)
     end
@@ -3391,7 +3391,7 @@ ShouldSummonChocobo =  ChocoboStance == "Follow"
                     or ChocoboStance == "Healer"
                     or ChocoboStance == "Attacker"
 ShouldAutoBuyGysahlGreens       = Config.Get("Buy Gysahl Greens?")
-MountToUse                      = "マウント・ルーレット"       --The mount youd like to use when flying between fates
+MountToUse                      = "mount roulette"       --The mount youd like to use when flying between fates
 
 -- Retainer
 
