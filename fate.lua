@@ -2326,7 +2326,7 @@ function SummonChocobo()
 
     if ShouldSummonChocobo and GetBuddyTimeRemaining() <= ResummonChocoboTimeLeft then
         if Inventory.GetItemCount(4868) > 0 then
-            yield("/item Gysahl Greens")
+            yield("/item ギサールの野菜")
             yield("/wait 3")
             yield('/cac "'..ChocoboStance..' stance"')
         elseif ShouldAutoBuyGysahlGreens then
@@ -2344,7 +2344,7 @@ function AutoBuyGysahlGreens()
         if Addons.GetAddon("Shop").Ready then
             yield("/callback Shop true -1")
         elseif Svc.ClientState.TerritoryType == SelectedZone.zoneId then
-            yield("/item Gysahl Greens")
+            yield("/item ギサールの野菜")
         else
             State = CharacterState.ready
             Dalamud.Log("State Change: ready")
