@@ -3391,7 +3391,7 @@ ShouldSummonChocobo =  ChocoboStance == "Follow"
                     or ChocoboStance == "Healer"
                     or ChocoboStance == "Attacker"
 ShouldAutoBuyGysahlGreens       = Config.Get("Buy Gysahl Greens?")
-MountToUse                      = "mount roulette"       --The mount youd like to use when flying between fates
+MountToUse                      = "マウント・ルーレット"       --The mount youd like to use when flying between fates
 
 -- Retainer
 
