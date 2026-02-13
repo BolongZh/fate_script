@@ -1035,7 +1035,7 @@ FatesData = {
 
             },
             otherNpcFates= {
-                { fateName="There's Always a Bigger Beast", npcName="Hanuhanu Angler" },
+                { fateName="怪力の大食漢「マイティ・マイプ」", npcName="ハヌハヌ族の釣り人" },
                 { fateName="Toucalibri at That Game", npcName="Hanuhanu Windscryer" },
                 { fateName="Putting the Fun in Fungicide", npcName="Bagnobrok Craftythoughts" },
                 { fateName="Reeds in Need", npcName="Hanuhanu Farmer" },
