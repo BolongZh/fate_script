@@ -1030,8 +1030,8 @@ FatesData = {
         zoneId=1188,
         fatesList={
             collectionsFates={
-                { fateName="Borne on the Backs of Burrowers", npcName="Moblin Forager" },
-                { fateName="Combing the Area", npcName="Hanuhanu Combmaker" },
+                { fateName="落ち石拾い", npcName="モブリン族の採集人" },
+                { fateName="人鳥細工", npcName="ハヌハヌ族の細工師" },
 
             },
             otherNpcFates= {
