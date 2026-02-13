@@ -354,7 +354,7 @@ BicolorExchangeData =
         aetheryteName = "ソリューション・ナイン",
         position=Vector3(-421, 226, -244),
         miniAetheryteName = "ネクサスアーケード",
-        miniAethernet = "ネクサスアーケード",
+        miniAethernet = {name ="ネクサスアーケード"},
         shopItems = {
             { itemName = "バイカラージェム納品証【黄金】", itemIndex = 6, price = 100 },
             { itemName = "Ⅴ8-low Magicite", itemIndex = 0, price = 100 },
