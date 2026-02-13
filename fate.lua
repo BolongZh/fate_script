@@ -2994,6 +2994,7 @@ function ExecuteBicolorExchange()
     CurrentFate = nil
     Dalamud.Log("bicolor exchange initiated")
     Dalamud.Log(SelectedBicolorExchangeData.miniAethernet)
+    Dalamud.Log(Svc.ClientState.LocalPlayer.Position)
     if BicolorGemCount >= 1400 then
         if Addons.GetAddon("SelectYesno").Ready then
             yield("/callback SelectYesno true 0")
