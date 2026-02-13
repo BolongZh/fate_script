@@ -350,7 +350,7 @@ BicolorExchangeData =
      {
         shopKeepName = "広域交易商 ベリル",
         zoneName = "ソリューション・ナイン",
-        zoneId = 1187,
+        zoneId = 1186,
         aetheryteName = "ソリューション・ナイン",
         position=Vector3(-421, 226, -244),
         miniAetheryteName = "ネクサスアーケード",
