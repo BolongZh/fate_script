@@ -94,6 +94,7 @@ configs:
     default: "バイカラージェム納品証【黄金】"
     is_choice: true
     choices: ["None",
+        "バイカラージェム納品証【黄金】",
         "Alexandrian Axe Beak Wing",
         "Alpaca Fillet",
         "Almasty Fur",
