@@ -3010,8 +3010,8 @@ function ExecuteBicolorExchange()
             return
         end
 
-        if SelectedBicolorExchangeData.miniAethernet ~= nil and
-            GetDistanceToPoint(SelectedBicolorExchangeData.position) > (DistanceBetween(SelectedBicolorExchangeData.miniAethernet.position, SelectedBicolorExchangeData.position) + 10) then
+        if SelectedBicolorExchangeData.miniAethernet ~= nil then
+                                      -- and            GetDistanceToPoint(SelectedBicolorExchangeData.position) > (DistanceBetween(SelectedBicolorExchangeData.miniAethernet.position, SelectedBicolorExchangeData.position) + 10) then
             Dalamud.Log("Distance to shopkeep is too far. Using mini aetheryte.")
             yield("/li "..SelectedBicolorExchangeData.miniAethernet.name)
             yield("/wait 1") -- give it a moment to register
