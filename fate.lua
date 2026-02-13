@@ -91,7 +91,7 @@ configs:
     default: false
   Exchange bicolor gemstones for:
     description: Choose none if you dont want to spend your bicolors.
-    default: "Bicolor Gemstone Voucher"
+    default: "バイカラージェム納品証【黄金】"
     is_choice: true
     choices: ["None",
         "Alexandrian Axe Beak Wing",
