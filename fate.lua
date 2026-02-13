@@ -3011,8 +3011,8 @@ function ExecuteBicolorExchange()
             return
         end
 
-        if SelectedBicolorExchangeData.miniAethernet ~= nil then
-                                      -- and            GetDistanceToPoint(SelectedBicolorExchangeData.position) > (DistanceBetween(SelectedBicolorExchangeData.miniAethernet.position, SelectedBicolorExchangeData.position) + 10) then
+        if SelectedBicolorExchangeData.miniAethernet ~= nil 
+                                      and            GetDistanceToPoint(SelectedBicolorExchangeData.position) > (DistanceBetween(SelectedBicolorExchangeData.miniAethernet.position, SelectedBicolorExchangeData.position) + 10) then
             Dalamud.Log("Distance to shopkeep is too far. Using mini aetheryte.")
             yield("/li "..SelectedBicolorExchangeData.miniAethernet.name)
             yield("/wait 1") -- give it a moment to register
@@ -3020,7 +3020,7 @@ function ExecuteBicolorExchange()
         elseif Addons.GetAddon("TelepotTown").Ready then
             Dalamud.Log("TelepotTown open")
             yield("/callback TelepotTown false -1")
-        elseif GetDistanceToPoint(SelectedBicolorExchangeData.position) > 5 then
+        elseif GetDistanceToPoint(SelectedBicolorExchangeData.position) > 2.5 then
             Dalamud.Log("Distance to shopkeep is too far. Walking there.")
             if not (IPC.vnavmesh.PathfindInProgress() or IPC.vnavmesh.IsRunning()) then
                 Dalamud.Log("Path not running")
