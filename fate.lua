@@ -352,7 +352,7 @@ BicolorExchangeData =
         zoneName = "ソリューション・ナイン",
         zoneId = 1186,
         aetheryteName = "ソリューション・ナイン",
-        position=Vector3(-191.48, 1.92, 3.7),
+        position=Vector3(-198.48, 1.9, 1),
         miniAetheryteName = "ネクサスアーケード",
         miniAethernet = {name ="ネクサスアーケード", position = Vector3(-157.74, 0.29, 17.43)},
         shopItems = {
